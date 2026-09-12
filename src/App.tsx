@@ -45,11 +45,20 @@ export const AppContent: React.FC = () => {
 
       {/* Footer info & Keyboard Navigation guide */}
       <footer className="w-full border-t border-zinc-200/80 bg-white/80 dark:border-zinc-800/80 dark:bg-zinc-950/60 py-3 no-print">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-zinc-500">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-zinc-500">
           <div className="flex items-center gap-2">
             <span className="w-2 h-2 rounded-full bg-emerald-500" />
             <span className="font-bold text-zinc-700 dark:text-zinc-300">FixPoint ERP Engine v2.6</span>
-            <span>• Mobile Repair & Workshop OS</span>
+            <span>•</span>
+            <a 
+              href="https://mubassher-alam-tanzim.vercel.app" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-indigo-600 dark:text-indigo-400 font-medium hover:underline flex items-center gap-1"
+            >
+              <span>Developed by Mubassher Alam</span>
+              <span>(🌐 Portfolio)</span>
+            </a>
           </div>
 
           <div className="flex items-center gap-4 text-[11px]">

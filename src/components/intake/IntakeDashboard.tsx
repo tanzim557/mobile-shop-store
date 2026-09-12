@@ -16,6 +16,7 @@ import {
   ShieldCheck, 
   AlertCircle
 } from 'lucide-react';
+import { DeveloperBadge } from '../common/DeveloperBadge';
 
 export const IntakeDashboard: React.FC = () => {
   const { 
@@ -107,7 +108,7 @@ export const IntakeDashboard: React.FC = () => {
     <div className="space-y-6">
       
       {/* Top Banner Row */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+      <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
         <div>
           <h1 className="text-xl sm:text-2xl font-black tracking-tight text-zinc-900 dark:text-white">
             Front-Desk & Intake Terminal
@@ -115,6 +116,11 @@ export const IntakeDashboard: React.FC = () => {
           <p className="text-xs sm:text-sm text-zinc-500 dark:text-zinc-400 mt-0.5">
             Rapid device intake, thermal sticker printing, customer queue, and service orders.
           </p>
+        </div>
+
+        {/* Developer Credit Portfolio Pill */}
+        <div className="flex items-center">
+          <DeveloperBadge />
         </div>
 
         <div className="flex items-center gap-2">
