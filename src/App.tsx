@@ -34,7 +34,7 @@ export const AppContent: React.FC = () => {
       <Navbar />
 
       {/* Main Role View Container */}
-      <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6">
+      <main className={`flex-1 w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 ${currentRole === 'technician' ? 'max-w-[1920px]' : 'max-w-7xl'}`}>
         {currentRole === 'front_desk' && <IntakeDashboard />}
         {currentRole === 'technician' && <TechnicianWorkbench />}
         {currentRole === 'inventory' && <InventoryManager />}
