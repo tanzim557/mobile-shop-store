@@ -1,32 +1,56 @@
-# React + TypeScript + Vite
+﻿# ðŸ“± Mobile Shop & Inventory Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+[![React](https://img.shields.io/badge/React-18%2B-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-Currently, two official plugins are available:
+> An advanced, interactive mobile phone retail store and stock management platform built with React, TypeScript, and Vite. Designed with power-user tools including a global Command Palette and QR Code scanning integration.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ðŸŒŸ Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **âš¡ Global Command Palette**: Instant navigation and product quick-search with keyboard shortcut (Cmd+K / Ctrl+K) via CommandPalette.tsx.
+- **ðŸ“Š Real-Time Analytics Hub**: Interactive revenue, inventory levels, and best-seller charts inside AnalyticsView.tsx.
+- **ðŸ“· Instant QR Code Sharing**: Generate product QR codes on the fly using qrcode.react for mobile checkout and specs viewing.
+- **ðŸ” Multi-Facet Product Filters**: Filter smartphones by brand, processor, RAM, internal storage, and budget tiers.
+- **ðŸŽ‰ Interactive Celebrations**: Canvas Confetti animations trigger upon successful order checkout.
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## ðŸ› ï¸ Tech Stack
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+- **Language & Framework**: TypeScript, React 18
+- **Tooling**: Vite
+- **Components & Utils**: qrcode.react, canvas-confetti, lucide-react
+- **Styling**: Tailwind CSS
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+---
+
+## ðŸš€ Getting Started
+
+`ash
+# Clone the repository
+git clone https://github.com/tanzim557/mobile-shop-store.git
+cd mobile-shop-store
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+`
+
+---
+
+## ðŸ‘¤ Author
+
+Developed by **[Mubassher Alam Tanzim](https://github.com/tanzim557)**  
+GitHub: [@tanzim557](https://github.com/tanzim557) â€¢ Email: mubassheralam0@gmail.com
+
+---
+
+## ðŸ“„ License
+This project is licensed under the MIT License.
